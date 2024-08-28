@@ -343,6 +343,16 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_08_21_0907142 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-08-21 0907142", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dark_blue_and_gold_background_abstract_design_vector {
             get {
                 object obj = ResourceManager.GetObject("dark-blue-and-gold-background-abstract-design-vector", resourceCulture);

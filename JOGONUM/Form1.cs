@@ -104,7 +104,7 @@ namespace JOGONUM
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form2 tela2 = new Form2();
+            Form6 tela2= new Form6();
             this.Visible = false;
             tela2.ShowDialog();
             this.Visible = true;
