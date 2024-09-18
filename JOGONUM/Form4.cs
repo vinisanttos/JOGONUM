@@ -16,5 +16,13 @@ namespace JOGONUM
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 tela2 = new Form3();
+            this.Visible = false;
+            tela2.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

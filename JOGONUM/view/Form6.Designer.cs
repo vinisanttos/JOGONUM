@@ -30,10 +30,10 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.senha = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.usuario = new System.Windows.Forms.TextBox();
             this.USÚARIO = new System.Windows.Forms.Label();
-            this.senha = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +61,17 @@
             this.panel1.Size = new System.Drawing.Size(200, 176);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // senha
+            // 
+            this.senha.AccessibleDescription = "tnsdovini";
+            this.senha.AccessibleName = "tnsdovini";
+            this.senha.Location = new System.Drawing.Point(28, 93);
+            this.senha.Name = "senha";
+            this.senha.PasswordChar = '*';
+            this.senha.Size = new System.Drawing.Size(100, 20);
+            this.senha.TabIndex = 5;
+            this.senha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.senha_KeyPress);
             // 
             // label1
             // 
@@ -94,16 +105,6 @@
             this.USÚARIO.TabIndex = 0;
             this.USÚARIO.Text = "USUÁRIO";
             this.USÚARIO.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // senha
-            // 
-            this.senha.AccessibleDescription = "tnsdovini";
-            this.senha.AccessibleName = "tnsdovini";
-            this.senha.Location = new System.Drawing.Point(28, 93);
-            this.senha.Name = "senha";
-            this.senha.Size = new System.Drawing.Size(100, 20);
-            this.senha.TabIndex = 5;
-            this.senha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.senha_KeyPress);
             // 
             // Form6
             // 

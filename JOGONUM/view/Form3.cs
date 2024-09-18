@@ -49,5 +49,10 @@ namespace JOGONUM
         {
 
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

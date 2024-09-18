@@ -63,9 +63,19 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _12784d25_4e1f_4174_bf06_37b796200b22 {
+        internal static System.Drawing.Bitmap _18_091 {
             get {
-                object obj = ResourceManager.GetObject("12784d25-4e1f-4174-bf06-37b796200b22", resourceCulture);
+                object obj = ResourceManager.GetObject("18/091", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _18_0922 {
+            get {
+                object obj = ResourceManager.GetObject("18_0922", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,9 +473,9 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Design_sem_nome__8_ {
+        internal static System.Drawing.Bitmap Design_sem_nome__9_ {
             get {
-                object obj = ResourceManager.GetObject("Design sem nome (8)", resourceCulture);
+                object obj = ResourceManager.GetObject("Design sem nome (9)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,9 +483,9 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Design_sem_nome__9_ {
+        internal static System.Drawing.Bitmap Design_sem_nome1 {
             get {
-                object obj = ResourceManager.GetObject("Design sem nome (9)", resourceCulture);
+                object obj = ResourceManager.GetObject("Design sem nome1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -95,13 +95,15 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackgroundImage = global::JOGONUM.Properties.Resources._12784d25_4e1f_4174_bf06_37b796200b22;
+            this.pictureBox6.BackgroundImage = global::JOGONUM.Properties.Resources._18_091;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Image = global::JOGONUM.Properties.Resources.Design_sem_nome1;
             this.pictureBox6.Location = new System.Drawing.Point(447, 167);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(139, 214);
             this.pictureBox6.TabIndex = 7;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // Form3
             // 
