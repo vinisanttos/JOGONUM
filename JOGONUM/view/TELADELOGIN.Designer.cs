@@ -1,6 +1,6 @@
 ﻿namespace JOGONUM
 {
-    partial class Form6
+    partial class TELADELOGIN
     {
         /// <summary>
         /// Required designer variable.
@@ -28,31 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.senha = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.usuario = new System.Windows.Forms.TextBox();
             this.USÚARIO = new System.Windows.Forms.Label();
+            this.enter = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.button1.Location = new System.Drawing.Point(125, 153);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "LOGIN";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = global::JOGONUM.Properties.Resources.Captura_de_tela_2024_08_21_090714;
+            this.panel1.Controls.Add(this.enter);
             this.panel1.Controls.Add(this.senha);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.usuario);
             this.panel1.Controls.Add(this.USÚARIO);
@@ -106,7 +95,17 @@
             this.USÚARIO.Text = "USUÁRIO";
             this.USÚARIO.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form6
+            // enter
+            // 
+            this.enter.Location = new System.Drawing.Point(122, 150);
+            this.enter.Name = "enter";
+            this.enter.Size = new System.Drawing.Size(75, 23);
+            this.enter.TabIndex = 6;
+            this.enter.Text = "ENTER";
+            this.enter.UseVisualStyleBackColor = true;
+            this.enter.Click += new System.EventHandler(this.enter_Click);
+            // 
+            // TELADELOGIN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,7 +114,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
-            this.Name = "Form6";
+            this.Name = "TELADELOGIN";
             this.Text = "Form6";
             this.Load += new System.EventHandler(this.Form6_Load);
             this.panel1.ResumeLayout(false);
@@ -130,7 +129,7 @@
         private System.Windows.Forms.Label USÚARIO;
         private System.Windows.Forms.TextBox usuario;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox senha;
+        private System.Windows.Forms.Button enter;
     }
 }

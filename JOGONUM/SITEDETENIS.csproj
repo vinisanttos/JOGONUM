@@ -49,69 +49,81 @@
     <Compile Include="Class1.cs" />
     <Compile Include="controller\Class1.cs" />
     <Compile Include="form.cs" />
-    <Compile Include="Form4.cs">
+    <Compile Include="TIPOSDETENIS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="TIPOSDETENIS.Designer.cs">
+      <DependentUpon>TIPOSDETENIS.cs</DependentUpon>
     </Compile>
     <Compile Include="model\LOGIN.cs" />
-    <Compile Include="view\Form1.cs">
+    <Compile Include="view\COMPRAAPROVADA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="view\COMPRAAPROVADA.Designer.cs">
+      <DependentUpon>COMPRAAPROVADA.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\Form2.cs">
+    <Compile Include="view\COMPRACANCELADA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="view\COMPRACANCELADA.Designer.cs">
+      <DependentUpon>COMPRACANCELADA.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\Form3.cs">
+    <Compile Include="view\INICIO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="view\INICIO.Designer.cs">
+      <DependentUpon>INICIO.cs</DependentUpon>
     </Compile>
-    <Compile Include="view\Form6.cs">
+    <Compile Include="view\TN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="view\TN.Designer.cs">
+      <DependentUpon>TN.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="view\TELADELOGIN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="view\TELADELOGIN.Designer.cs">
+      <DependentUpon>TELADELOGIN.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="view\FORM8.cs">
+    <Compile Include="view\MIZUNO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\FORM8.Designer.cs">
-      <DependentUpon>FORM8.cs</DependentUpon>
+    <Compile Include="view\MIZUNO.Designer.cs">
+      <DependentUpon>MIZUNO.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="view\PAGAMENTOMIZUNO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\PAGAMENTOMIZUNO.Designer.cs">
+      <DependentUpon>PAGAMENTOMIZUNO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\PAGAMENTOTN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\PAGAMENTOTN.Designer.cs">
+      <DependentUpon>PAGAMENTOTN.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TIPOSDETENIS.resx">
+      <DependentUpon>TIPOSDETENIS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="view\COMPRAAPROVADA.resx">
+      <DependentUpon>COMPRAAPROVADA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="view\COMPRACANCELADA.resx">
+      <DependentUpon>COMPRACANCELADA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="view\INICIO.resx">
+      <DependentUpon>INICIO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view\Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="view\TN.resx">
+      <DependentUpon>TN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="view\TELADELOGIN.resx">
+      <DependentUpon>TELADELOGIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,8 +135,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="view\FORM8.resx">
-      <DependentUpon>FORM8.cs</DependentUpon>
+    <EmbeddedResource Include="view\MIZUNO.resx">
+      <DependentUpon>MIZUNO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\PAGAMENTOMIZUNO.resx">
+      <DependentUpon>PAGAMENTOMIZUNO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\PAGAMENTOTN.resx">
+      <DependentUpon>PAGAMENTOTN.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -309,6 +327,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Design sem nome %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4d363311-208b-46f1-9bbc-593084e56cdc1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4d363311-208b-46f1-9bbc-593084e56cdc2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2024-08-21 075459.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

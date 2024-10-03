@@ -1,6 +1,6 @@
 ﻿namespace JOGONUM
 {
-    partial class Form3
+    partial class TN
     {
         /// <summary>
         /// Required designer variable.
@@ -79,6 +79,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(139, 214);
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
             // 

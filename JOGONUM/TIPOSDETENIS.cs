@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JOGONUM.view;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,19 +11,27 @@ using System.Windows.Forms;
 
 namespace JOGONUM
 {
-    public partial class Form4 : Form
+    public partial class TIPOSDETENIS : Form
     {
-        public Form4()
+        public TIPOSDETENIS()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 tela2 = new Form3();
+            TN tela2 = new TN();
             this.Visible = false;
             tela2.ShowDialog();
             this.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           MIZUNO MIZUNO = new MIZUNO();
+           this.Visible = false;
+           MIZUNO.ShowDialog();
+           this.Visible = true;
         }
     }
 }

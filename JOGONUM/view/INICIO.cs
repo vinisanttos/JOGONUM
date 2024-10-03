@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JOGONUM
 {
-    public partial class Form1 : Form
+    public partial class INICIO : Form
     {
-        public Form1()
+        public INICIO()
         {
             InitializeComponent();
         }
@@ -104,9 +104,9 @@ namespace JOGONUM
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form6 tela2= new Form6();
+            TELADELOGIN teladelogin = new TELADELOGIN();
             this.Visible = false;
-            tela2.ShowDialog();
+            teladelogin.ShowDialog();
             this.Visible = true;
 
         }

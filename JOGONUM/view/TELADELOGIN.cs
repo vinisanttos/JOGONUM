@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace JOGONUM
 {
-    public partial class Form6 : Form
+    public partial class TELADELOGIN : Form
     {
 
 
-        public Form6()
+        public TELADELOGIN()
         {
             InitializeComponent();
         }
@@ -26,19 +26,19 @@ namespace JOGONUM
 
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
 
         }
 
         private void label1_Click_1(object sender, EventArgs e)
         {
-           
+
         }
 
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
-           
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -48,19 +48,16 @@ namespace JOGONUM
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
         }
-
-        private void button1_Click_1(object sender, EventArgs e)
+        private void enter_Click(object sender, EventArgs e)
         {
             string tnsdovini = usuario.Text;
             string tnsdovini1 = senha.Text;
 
-            string correctusuario = "tnsdovini";
-            string correctsenha = "123456";
-            if (tnsdovini == correctusuario && tnsdovini1 == correctsenha)
+            if (tnsdovini == tnsdovini && tnsdovini1 == tnsdovini1)
             {
-                Form2 form2 = new Form2();
+                TIPOSDETENIS TIPODETENIS = new TIPOSDETENIS();
                 this.Visible = false;
-                form2.ShowDialog();
+                TIPODETENIS.ShowDialog();
                 this.Visible = true;
             }
             else
@@ -71,14 +68,14 @@ namespace JOGONUM
 
         private void usuario_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(e.KeyChar == (char)13)
+            if (e.KeyChar == (char)13)
                 senha.Focus();
         }
 
         private void senha_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
-                button1.Focus();
+                enter.Focus();
         }
     }
 }

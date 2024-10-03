@@ -133,6 +133,26 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4d363311_208b_46f1_9bbc_593084e56cdc1 {
+            get {
+                object obj = ResourceManager.GetObject("4d363311-208b-46f1-9bbc-593084e56cdc1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4d363311_208b_46f1_9bbc_593084e56cdc2 {
+            get {
+                object obj = ResourceManager.GetObject("4d363311-208b-46f1-9bbc-593084e56cdc2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _7f860085_4533_47b8_947e_d680f640d827 {
             get {
                 object obj = ResourceManager.GetObject("7f860085-4533-47b8-947e-d680f640d827", resourceCulture);
@@ -146,6 +166,16 @@ namespace JOGONUM.Properties {
         internal static System.Drawing.Bitmap c7c40cb6_f97f_4985_931e_0a9463f0df45 {
             get {
                 object obj = ResourceManager.GetObject("c7c40cb6-f97f-4985-931e-0a9463f0df45", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_08_21_075459 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-08-21 075459", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,6 +463,16 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__1_2 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (1)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Design_sem_nome__2_ {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (2)", resourceCulture);
@@ -566,6 +606,66 @@ namespace JOGONUM.Properties {
         internal static System.Drawing.Bitmap f5ce085a_dd8c_470e_ab6a_2753c82b594f {
             get {
                 object obj = ResourceManager.GetObject("f5ce085a-dd8c-470e-ab6a-2753c82b594f", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título__2_2 {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título (2)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título (3)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

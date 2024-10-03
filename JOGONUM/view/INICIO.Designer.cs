@@ -1,6 +1,6 @@
 ﻿namespace JOGONUM
 {
-    partial class Form1
+    partial class INICIO
     {
         /// <summary>
         /// Variável de designer necessária.

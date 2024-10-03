@@ -8,51 +8,37 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace JOGONUM
+namespace JOGONUM.view
 {
-    public partial class Form3 : Form
+    public partial class MIZUNO : Form
     {
-        public Form3()
+        public MIZUNO()
         {
             InitializeComponent();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 tela4 = new Form2();
+            PAGAMENTOMIZUNO pagamentomizuno = new PAGAMENTOMIZUNO();
             this.Visible = false;
-            tela4.ShowDialog();
+            pagamentomizuno.ShowDialog();
             this.Visible = true;
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            PAGAMENTOMIZUNO pagamentomizuno = new PAGAMENTOMIZUNO();
+            this.Visible = false;
+            pagamentomizuno.ShowDialog();
+            this.Visible = true;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
+            PAGAMENTOMIZUNO pagamentomizuno = new PAGAMENTOMIZUNO();
+            this.Visible = false;
+            pagamentomizuno.ShowDialog();
+            this.Visible = true;
         }
     }
 }

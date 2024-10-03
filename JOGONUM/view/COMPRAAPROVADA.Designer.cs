@@ -1,6 +1,6 @@
-﻿namespace JOGONUM
+﻿namespace JOGONUM.view
 {
-    partial class Form4
+    partial class COMPRAAPROVADA
     {
         /// <summary>
         /// Required designer variable.
@@ -28,47 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.COMPRAAPROVADAMIZ = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // COMPRAAPROVADAMIZ
+            // 
+            this.COMPRAAPROVADAMIZ.Location = new System.Drawing.Point(254, 258);
+            this.COMPRAAPROVADAMIZ.Name = "COMPRAAPROVADAMIZ";
+            this.COMPRAAPROVADAMIZ.Size = new System.Drawing.Size(273, 23);
+            this.COMPRAAPROVADAMIZ.TabIndex = 0;
+            this.COMPRAAPROVADAMIZ.Text = "SUA COMPRA FOI FEITA COM SUCESSO!";
+            this.COMPRAAPROVADAMIZ.UseVisualStyleBackColor = true;
+            this.COMPRAAPROVADAMIZ.Click += new System.EventHandler(this.COMPRAAPROVADAMIZ_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(232, 396);
+            this.button1.Location = new System.Drawing.Point(58, 384);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "TN";
+            this.button1.Size = new System.Drawing.Size(131, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "CANCELAR COMPRA";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(492, 396);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "MIZUNO";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // Form4
+            // COMPRAAPROVADA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::JOGONUM.Properties.Resources._18_0922;
+            this.BackgroundImage = global::JOGONUM.Properties.Resources.Inserir_um_título__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form4";
-            this.Text = "Form4";
+            this.Controls.Add(this.COMPRAAPROVADAMIZ);
+            this.DoubleBuffered = true;
+            this.Name = "COMPRAAPROVADA";
+            this.Text = "COMPRAAPROVADA";
+            this.Load += new System.EventHandler(this.COMPRAAPROVADA_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Button COMPRAAPROVADAMIZ;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
     }
 }

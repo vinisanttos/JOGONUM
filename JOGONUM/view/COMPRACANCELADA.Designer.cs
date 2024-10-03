@@ -1,6 +1,6 @@
-﻿namespace JOGONUM
+﻿namespace JOGONUM.view
 {
-    partial class Form7
+    partial class COMPRACANCELADA
     {
         /// <summary>
         /// Required designer variable.
@@ -28,38 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // button1
             // 
-            this.pictureBox1.BackgroundImage = global::JOGONUM.Properties.Resources.Captura_de_tela_2024_08_21_0838091;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(484, 337);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(152, 20);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.button1.Location = new System.Drawing.Point(40, 388);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "VOLTAR PARA O INICIO";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form7
+            // COMPRACANCELADA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::JOGONUM.Properties.Resources.Captura_de_tela_2024_08_21_084223;
+            this.BackgroundImage = global::JOGONUM.Properties.Resources.Inserir_um_título__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
-            this.Name = "Form7";
-            this.Text = "Form7";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Name = "COMPRACANCELADA";
+            this.Text = "COMPRACANCELADA";
+            this.Load += new System.EventHandler(this.COMPRACANCELADA_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
