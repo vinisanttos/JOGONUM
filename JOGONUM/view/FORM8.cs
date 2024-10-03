@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace JOGONUM
+namespace JOGONUM.view
 {
-    public partial class Form8 : Form
+    public partial class FORM8 : Form
     {
-        public Form8()
+        public FORM8()
         {
             InitializeComponent();
         }

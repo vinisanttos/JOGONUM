@@ -1,6 +1,6 @@
-﻿namespace JOGONUM
+﻿namespace JOGONUM.view
 {
-    partial class Form8
+    partial class FORM8
     {
         /// <summary>
         /// Required designer variable.
@@ -34,24 +34,23 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(488, 335);
+            this.pictureBox1.Location = new System.Drawing.Point(195, 252);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 22);
+            this.pictureBox1.Size = new System.Drawing.Size(106, 153);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // Form8
+            // FORM8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::JOGONUM.Properties.Resources.Design_sem_nome__2_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
-            this.Name = "Form8";
-            this.Text = "Form8";
-            this.Load += new System.EventHandler(this.Form8_Load);
+            this.Name = "FORM8";
+            this.Text = "FORM8";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

@@ -363,6 +363,36 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_10_03_153700 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-10-03 153700", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_tela_2024_10_03_1537001 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de tela 2024-10-03 1537001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d00806d8_de70_4134_a802_3cc371f0c845 {
+            get {
+                object obj = ResourceManager.GetObject("d00806d8-de70-4134-a802-3cc371f0c845", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dark_blue_and_gold_background_abstract_design_vector {
             get {
                 object obj = ResourceManager.GetObject("dark-blue-and-gold-background-abstract-design-vector", resourceCulture);
@@ -393,6 +423,16 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Design_sem_nome__2_ {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (2)", resourceCulture);
@@ -406,6 +446,16 @@ namespace JOGONUM.Properties {
         internal static System.Drawing.Bitmap Design_sem_nome__2_1 {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome__2_2 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome (2)2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -486,6 +536,16 @@ namespace JOGONUM.Properties {
         internal static System.Drawing.Bitmap Design_sem_nome1 {
             get {
                 object obj = ResourceManager.GetObject("Design sem nome1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Design_sem_nome2 {
+            get {
+                object obj = ResourceManager.GetObject("Design sem nome2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
