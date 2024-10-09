@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.senha = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.usuario = new System.Windows.Forms.TextBox();
-            this.USÚARIO = new System.Windows.Forms.Label();
             this.enter = new System.Windows.Forms.Button();
+            this.txbsenha = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txbusuario = new System.Windows.Forms.TextBox();
+            this.USÚARIO = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,9 +41,9 @@
             // 
             this.panel1.BackgroundImage = global::JOGONUM.Properties.Resources.Captura_de_tela_2024_08_21_090714;
             this.panel1.Controls.Add(this.enter);
-            this.panel1.Controls.Add(this.senha);
+            this.panel1.Controls.Add(this.txbsenha);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.usuario);
+            this.panel1.Controls.Add(this.txbusuario);
             this.panel1.Controls.Add(this.USÚARIO);
             this.panel1.Location = new System.Drawing.Point(284, 159);
             this.panel1.Name = "panel1";
@@ -51,16 +51,26 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // senha
+            // enter
             // 
-            this.senha.AccessibleDescription = "tnsdovini";
-            this.senha.AccessibleName = "tnsdovini";
-            this.senha.Location = new System.Drawing.Point(28, 93);
-            this.senha.Name = "senha";
-            this.senha.PasswordChar = '*';
-            this.senha.Size = new System.Drawing.Size(100, 20);
-            this.senha.TabIndex = 5;
-            this.senha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.senha_KeyPress);
+            this.enter.Location = new System.Drawing.Point(122, 150);
+            this.enter.Name = "enter";
+            this.enter.Size = new System.Drawing.Size(75, 23);
+            this.enter.TabIndex = 6;
+            this.enter.Text = "ENTER";
+            this.enter.UseVisualStyleBackColor = true;
+            this.enter.Click += new System.EventHandler(this.enter_Click);
+            // 
+            // txbsenha
+            // 
+            this.txbsenha.AccessibleDescription = "tnsdovini";
+            this.txbsenha.AccessibleName = "tnsdovini";
+            this.txbsenha.Location = new System.Drawing.Point(28, 93);
+            this.txbsenha.Name = "txbsenha";
+            this.txbsenha.PasswordChar = '*';
+            this.txbsenha.Size = new System.Drawing.Size(100, 20);
+            this.txbsenha.TabIndex = 5;
+            this.txbsenha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.senha_KeyPress);
             // 
             // label1
             // 
@@ -73,16 +83,16 @@
             this.label1.Text = "SENHA";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // usuario
+            // txbusuario
             // 
-            this.usuario.AccessibleDescription = "tnsdovini";
-            this.usuario.AccessibleName = "tnsdovini";
-            this.usuario.Location = new System.Drawing.Point(28, 40);
-            this.usuario.Name = "usuario";
-            this.usuario.Size = new System.Drawing.Size(100, 20);
-            this.usuario.TabIndex = 1;
-            this.usuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
-            this.usuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.usuario_KeyPress);
+            this.txbusuario.AccessibleDescription = "tnsdovini";
+            this.txbusuario.AccessibleName = "tnsdovini";
+            this.txbusuario.Location = new System.Drawing.Point(28, 40);
+            this.txbusuario.Name = "txbusuario";
+            this.txbusuario.Size = new System.Drawing.Size(100, 20);
+            this.txbusuario.TabIndex = 1;
+            this.txbusuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            this.txbusuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.usuario_KeyPress);
             // 
             // USÚARIO
             // 
@@ -94,16 +104,6 @@
             this.USÚARIO.TabIndex = 0;
             this.USÚARIO.Text = "USUÁRIO";
             this.USÚARIO.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // enter
-            // 
-            this.enter.Location = new System.Drawing.Point(122, 150);
-            this.enter.Name = "enter";
-            this.enter.Size = new System.Drawing.Size(75, 23);
-            this.enter.TabIndex = 6;
-            this.enter.Text = "ENTER";
-            this.enter.UseVisualStyleBackColor = true;
-            this.enter.Click += new System.EventHandler(this.enter_Click);
             // 
             // TELADELOGIN
             // 
@@ -127,9 +127,9 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label USÚARIO;
-        private System.Windows.Forms.TextBox usuario;
+        private System.Windows.Forms.TextBox txbusuario;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox senha;
+        private System.Windows.Forms.TextBox txbsenha;
         private System.Windows.Forms.Button enter;
     }
 }

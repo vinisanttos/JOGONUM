@@ -26,7 +26,7 @@ namespace JOGONUM.controller
             + "; Encrypt = false";
 
             con = new SqlConnection(stringConnection);
-            con.Open(); // conexao com o banco.
+            con.Open(); //ABRIR a conexao com o banco.
         }
         //TENTA FECHAR A CONEXAO COM O BANCO.
         public void CloseConnection()

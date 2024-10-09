@@ -47,15 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="controller\Class1.cs" />
+    <Compile Include="controller\connection.cs" />
     <Compile Include="form.cs" />
+    <Compile Include="model\UsuarioDAO.cs" />
     <Compile Include="TIPOSDETENIS.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TIPOSDETENIS.Designer.cs">
       <DependentUpon>TIPOSDETENIS.cs</DependentUpon>
     </Compile>
-    <Compile Include="model\LOGIN.cs" />
+    <Compile Include="model\Usuario.cs" />
     <Compile Include="view\COMPRAAPROVADA.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JOGONUM.model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,6 +51,22 @@ namespace JOGONUM
         }
         private void enter_Click(object sender, EventArgs e)
         {
+            string usuario = txbusuario.Text;
+            string senha = txbsenha.Text;
+
+            //cria objeto do tipo da entidade manipulada.
+            Usuario usuario = new Usuario(usuario, senha);
+
+            //cria objeto para interaçao com o banco de dados.
+            UsuarioDAO usuarioDAO = new UsuarioDAO();
+
+            //chama o insert
+            usuarioDAO.Insert(usuario);
+
+
+            
+            
+            
             string tnsdovini = usuario.Text;
             string tnsdovini1 = senha.Text;
 
@@ -69,7 +86,7 @@ namespace JOGONUM
         private void usuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
-                senha.Focus();
+                txbsenha.Focus();
         }
 
         private void senha_KeyPress(object sender, KeyPressEventArgs e)
