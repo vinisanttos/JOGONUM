@@ -21,7 +21,7 @@ namespace JOGONUM.model
         public void Insert(Usuario usu)
         {
             Command.Connection = Connect.ReturnConnection();
-            Command.CommandText = @"INSERT INTO TELADELOGIN VALUES (@user, @pass)";
+            Command.CommandText = @"INSERT INTO Usuario VALUES (@user, @pass)";
 
             Command.Parameters.AddWithValue("@user", usu.User);
             Command.Parameters.AddWithValue("@pass", usu.Pass);
@@ -33,8 +33,7 @@ namespace JOGONUM.model
             }
             catch (Exception err)
             {
-                throw new Exception("Erro: Problemas ao inserir " +
-                    "imóvel no banco.\n" + err.Message);
+                throw new Exception("Erro: Problemas ao inserir " + "problemas ao inserir no banco.\n" + err.Message);
             }
             finally
             {

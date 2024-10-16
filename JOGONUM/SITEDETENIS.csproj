@@ -33,6 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,16 +49,17 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="controller\connection.cs" />
     <Compile Include="form.cs" />
     <Compile Include="model\UsuarioDAO.cs" />
-    <Compile Include="TIPOSDETENIS.cs">
+    <Compile Include="view\TIPOSDETENIS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TIPOSDETENIS.Designer.cs">
+    <Compile Include="view\TIPOSDETENIS.Designer.cs">
       <DependentUpon>TIPOSDETENIS.cs</DependentUpon>
     </Compile>
     <Compile Include="model\Usuario.cs" />
@@ -108,7 +114,7 @@
     <Compile Include="view\PAGAMENTOTN.Designer.cs">
       <DependentUpon>PAGAMENTOTN.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="TIPOSDETENIS.resx">
+    <EmbeddedResource Include="view\TIPOSDETENIS.resx">
       <DependentUpon>TIPOSDETENIS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\COMPRAAPROVADA.resx">
@@ -145,6 +151,7 @@
     <EmbeddedResource Include="view\PAGAMENTOTN.resx">
       <DependentUpon>PAGAMENTOTN.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -358,6 +365,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Inserir um título %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

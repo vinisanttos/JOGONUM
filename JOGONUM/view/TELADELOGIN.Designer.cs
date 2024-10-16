@@ -70,6 +70,7 @@
             this.txbsenha.PasswordChar = '*';
             this.txbsenha.Size = new System.Drawing.Size(100, 20);
             this.txbsenha.TabIndex = 5;
+            this.txbsenha.TextChanged += new System.EventHandler(this.txbsenha_TextChanged);
             this.txbsenha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.senha_KeyPress);
             // 
             // label1

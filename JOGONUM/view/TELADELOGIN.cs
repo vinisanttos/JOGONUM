@@ -55,20 +55,18 @@ namespace JOGONUM
             string senha = txbsenha.Text;
 
             //cria objeto do tipo da entidade manipulada.
-            Usuario usuario = new Usuario(usuario, senha);
+            Usuario usu = new Usuario(usuario, senha);
 
             //cria objeto para interaçao com o banco de dados.
             UsuarioDAO usuarioDAO = new UsuarioDAO();
 
             //chama o insert
-            usuarioDAO.Insert(usuario);
+            usuarioDAO.Insert(usu);
 
-
             
             
-            
-            string tnsdovini = usuario.Text;
-            string tnsdovini1 = senha.Text;
+            string tnsdovini = txbusuario.Text;
+            string tnsdovini1 = txbsenha.Text;
 
             if (tnsdovini == tnsdovini && tnsdovini1 == tnsdovini1)
             {
@@ -93,6 +91,11 @@ namespace JOGONUM
         {
             if (e.KeyChar == (char)13)
                 enter.Focus();
+        }
+
+        private void txbsenha_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
