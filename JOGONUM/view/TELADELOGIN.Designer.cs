@@ -112,7 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::JOGONUM.Properties.Resources.Captura_de_tela_2024_08_21_0907141;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(954, 450);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "TELADELOGIN";

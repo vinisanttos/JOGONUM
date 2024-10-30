@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JOGONUM.model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,11 @@ namespace JOGONUM.model
         public int CodUser { get; set; }
         public string User { get; set; }
         public string Pass {  get; set; }
+
+        public Usuario(int coduser,string usuario, string senha) : this (usuario, senha)
+        {
+            CodUser = coduser;
+        }
 
         public Usuario(string usuario, string senha)
         {

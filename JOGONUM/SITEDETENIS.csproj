@@ -375,5 +375,14 @@
   <ItemGroup>
     <None Include="Resources\Inserir um título3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título6.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
