@@ -112,6 +112,7 @@ namespace JOGONUM.model
                 Connect.CloseConnection();
 
             }
+            return users;
         }
     }
 }

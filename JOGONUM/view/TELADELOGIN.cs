@@ -58,7 +58,7 @@ namespace JOGONUM
             Usuario usu = new Usuario(usuario, senha);
 
             //cria objeto para interaçao com o banco de dados.
-            Usuario usuarioDAO = new Usuario();
+            UsuarioDAO usuarioDAO = new UsuarioDAO();
 
             //chama o insert
             usuarioDAO.Insert(usu);
