@@ -10,19 +10,16 @@ using System.Windows.Forms;
 
 namespace JOGONUM.view
 {
-    public partial class PAGAMENTOTN : Form
+    public partial class Broker : Form
     {
-        public PAGAMENTOTN()
+        public Broker()
         {
             InitializeComponent();
         }
 
-        private void FINALIZARMIZ_Click(object sender, EventArgs e)
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            PAGAR tela1 = new PAGAR();
-            this.Visible = false;
-            tela1.ShowDialog();
-            this.Visible = true;
+
         }
     }
 }

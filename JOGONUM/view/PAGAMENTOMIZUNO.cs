@@ -44,7 +44,7 @@ namespace JOGONUM.view
 
         private void FINALIZARMIZ_Click(object sender, EventArgs e)
         {
-            COMPRAAPROVADA tela5 = new COMPRAAPROVADA();
+            PAGAR tela5 = new PAGAR();
             this.Visible = false;
             tela5.ShowDialog();
             this.Visible = true;

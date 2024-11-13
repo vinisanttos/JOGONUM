@@ -55,7 +55,27 @@
     <Compile Include="Class1.cs" />
     <Compile Include="controller\connection.cs" />
     <Compile Include="form.cs" />
+    <Compile Include="model\Broker.cs" />
+    <Compile Include="model\BrokerDAO.cs" />
+    <Compile Include="view\Broker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Broker.Designer.cs">
+      <DependentUpon>Broker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\FrmBroker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\FrmBroker.Designer.cs">
+      <DependentUpon>FrmBroker.cs</DependentUpon>
+    </Compile>
     <Compile Include="model\UsuarioDAO.cs" />
+    <Compile Include="view\PAGAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\PAGAR.Designer.cs">
+      <DependentUpon>PAGAR.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\TIPOSDETENIS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +134,15 @@
     <Compile Include="view\PAGAMENTOTN.Designer.cs">
       <DependentUpon>PAGAMENTOTN.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="view\Broker.resx">
+      <DependentUpon>Broker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\FrmBroker.resx">
+      <DependentUpon>FrmBroker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\PAGAR.resx">
+      <DependentUpon>PAGAR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\TIPOSDETENIS.resx">
       <DependentUpon>TIPOSDETENIS.cs</DependentUpon>
     </EmbeddedResource>
@@ -383,6 +412,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Inserir um título6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir um título3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

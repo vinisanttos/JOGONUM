@@ -93,11 +93,11 @@
             // 
             // FINALIZARMIZ
             // 
-            this.FINALIZARMIZ.Location = new System.Drawing.Point(522, 322);
+            this.FINALIZARMIZ.Location = new System.Drawing.Point(540, 334);
             this.FINALIZARMIZ.Name = "FINALIZARMIZ";
-            this.FINALIZARMIZ.Size = new System.Drawing.Size(75, 23);
+            this.FINALIZARMIZ.Size = new System.Drawing.Size(89, 23);
             this.FINALIZARMIZ.TabIndex = 4;
-            this.FINALIZARMIZ.Text = "FINALIZAR";
+            this.FINALIZARMIZ.Text = "PROSSEGUIR";
             this.FINALIZARMIZ.UseVisualStyleBackColor = true;
             this.FINALIZARMIZ.Click += new System.EventHandler(this.FINALIZARMIZ_Click);
             // 

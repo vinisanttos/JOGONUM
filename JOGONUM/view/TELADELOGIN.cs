@@ -1,4 +1,5 @@
 ﻿using JOGONUM.model;
+using JOGONUM.view;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,7 +14,6 @@ namespace JOGONUM
 {
     public partial class TELADELOGIN : Form
     {
-
 
         public TELADELOGIN()
         {
@@ -63,25 +63,17 @@ namespace JOGONUM
             //chama o insert
             usuarioDAO.Insert(usu);
 
-            
-            
-            string tnsdovini = txbusuario.Text;
-            string tnsdovini1 = txbsenha.Text;
 
-            if (tnsdovini == tnsdovini && tnsdovini1 == tnsdovini1)
-            {
-                TIPOSDETENIS TIPODETENIS = new TIPOSDETENIS();
-                this.Visible = false;
-                TIPODETENIS.ShowDialog();
-                this.Visible = true;
-            }
-            else
-            {
-                MessageBox.Show("Usuario ou Senha esta incorreto.");
-            }
+
+            string Usuario = txbusuario.Text;
+            string Senha = txbsenha.Text;
+
+            TIPOSDETENIS pagamentotn = new TIPOSDETENIS();
+            this.Visible = false;
+            pagamentotn.ShowDialog();
+            this.Visible = true;
         }
-
-        private void usuario_KeyPress(object sender, KeyPressEventArgs e)
+            private void usuario_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
                 txbsenha.Focus();
@@ -94,6 +86,34 @@ namespace JOGONUM
         }
 
         private void txbsenha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncriar_Click(object sender, EventArgs e)
+        {
+            string Usuario = txtusuario1.Text;
+            string Senha = txtsenha1.Text;
+         
+            MessageBox.Show("Conta criada com sucesso!");
+        }
+
+        private void CriarConta(string usuario, string senha)
+        {
+         
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

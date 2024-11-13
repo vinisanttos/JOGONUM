@@ -683,6 +683,16 @@ namespace JOGONUM.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título10 {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Inserir_um_título2 {
             get {
                 object obj = ResourceManager.GetObject("Inserir um título2", resourceCulture);
@@ -726,6 +736,36 @@ namespace JOGONUM.Properties {
         internal static System.Drawing.Bitmap Inserir_um_título6 {
             get {
                 object obj = ResourceManager.GetObject("Inserir um título6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título7 {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título8 {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inserir_um_título9 {
+            get {
+                object obj = ResourceManager.GetObject("Inserir um título9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -92,9 +92,9 @@
             // 
             this.FINALIZARTN.Location = new System.Drawing.Point(562, 350);
             this.FINALIZARTN.Name = "FINALIZARTN";
-            this.FINALIZARTN.Size = new System.Drawing.Size(75, 23);
+            this.FINALIZARTN.Size = new System.Drawing.Size(89, 23);
             this.FINALIZARTN.TabIndex = 8;
-            this.FINALIZARTN.Text = "FINALIZAR";
+            this.FINALIZARTN.Text = "PROSSEGUIR";
             this.FINALIZARTN.UseVisualStyleBackColor = true;
             this.FINALIZARTN.Click += new System.EventHandler(this.FINALIZARMIZ_Click);
             // 
