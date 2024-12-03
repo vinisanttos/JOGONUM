@@ -24,15 +24,14 @@ namespace JOGONUM.model
             Command.CommandText =
             @"INSERT INTO 
             Broker VALUES 
-            (@brokerName, @brokerCode, @state, @codeArea, @telephone, @email, @password)";
+            (@brokerusuario, @Usuario, @Modelo, @Preco, @Desconto, @Password)";
 
-            Command.Parameters.AddWithValue("@brokerName", broker.BrokerName);
-            Command.Parameters.AddWithValue("@brokerCode", broker.BrokerCode);
-            Command.Parameters.AddWithValue("@state", broker.State);
-            Command.Parameters.AddWithValue("@codeArea", broker.CodeArea);
-            Command.Parameters.AddWithValue("@telephone", broker.Telephone);
-            Command.Parameters.AddWithValue("@email", broker.Email);
-            Command.Parameters.AddWithValue("@password", broker.Password);
+            Command.Parameters.AddWithValue("@brokerusuario", broker.Brokerusuario);
+            Command.Parameters.AddWithValue("@Usuario", broker.Usuario);
+            Command.Parameters.AddWithValue("@Modelo", broker.Modelo);
+            Command.Parameters.AddWithValue("@Preco", broker.Preco);
+            Command.Parameters.AddWithValue("@Desconto", broker.Desconto);
+            Command.Parameters.AddWithValue("@Password", broker.Password);
 
             try
             {
@@ -56,23 +55,21 @@ namespace JOGONUM.model
         {
             Command.Connection = Connect.ReturnConnection();
             Command.CommandText = @"UPDATE Broker SET 
-            BrokerName = @brokerName,
-            BrokerCode = @brokerCode,
-            State = @state,
-            CodeArea = @codeArea,
-            Telephone = @telephone,
-            Email = @email,
-            Password = @password
-            WHERE Id = @id";
+            Brokerusuario = @brokerusuario,
+            Usuario = @Usuario,
+            Modelo = @Modelo,
+            Preco = @Preco
+            Desconto = @Desconto,
+            Password = @Password,
+            WHERE CodUsu = @CodUsu";
 
-            Command.Parameters.AddWithValue("@id", broker.Id);
-            Command.Parameters.AddWithValue("@brokerName", broker.BrokerName);
-            Command.Parameters.AddWithValue("@brokerCode", broker.BrokerCode);
-            Command.Parameters.AddWithValue("@state", broker.State);
-            Command.Parameters.AddWithValue("@codeArea", broker.CodeArea);
-            Command.Parameters.AddWithValue("@telephone", broker.Telephone);
-            Command.Parameters.AddWithValue("@email", broker.Email);
-            Command.Parameters.AddWithValue("@password", broker.Password);
+            Command.Parameters.AddWithValue("@CodUsu", broker.CodUsu);
+            Command.Parameters.AddWithValue("@brokerusuario", broker.Brokerusuario);
+            Command.Parameters.AddWithValue("@Usuario", broker.Usuario);
+            Command.Parameters.AddWithValue("@Modelo", broker.Modelo);
+            Command.Parameters.AddWithValue("@Preco", broker.Preco);
+            Command.Parameters.AddWithValue("@Desconto", broker.Desconto);
+            Command.Parameters.AddWithValue("@Password", broker.Password);
 
             try
             {
@@ -125,13 +122,11 @@ namespace JOGONUM.model
                 while (rd.Read())
                 {
                     Broker broker = new Broker(
-                        (int)rd["Id"],
-                        (string)rd["BrokerName"],
-                        (string)rd["BrokerCode"],
-                        (string)rd["State"],
-                        (int)rd["CodeArea"],
-                        (string)rd["Telephone"],
-                        (string)rd["Email"],
+                        (string)rd["Brokerusuario"],
+                        (string)rd["Usuario"],
+                        (string)rd["Modelo"],
+                        (float)rd["Preco"],
+                        (float)rd["Desconto"],
                         (string)rd["Password"]
                         );
                     brokers.Add(broker);
@@ -155,10 +150,10 @@ namespace JOGONUM.model
 
             Command.Connection = Connect.ReturnConnection();
             Command.CommandText = "SELECT * FROM Broker WHERE " +
-                                  "BrokerCode = @brokerCode AND " +
+                                  "BrokerCode = @brokerusuario AND " +
                                   "Password = @password";
-            Command.Parameters.AddWithValue("@brokerCode", broker.BrokerCode);
-            Command.Parameters.AddWithValue("@password", broker.Password);
+            Command.Parameters.AddWithValue("@brokerusuario", broker.Brokerusuario);
+            Command.Parameters.AddWithValue("@Password", broker.Password);
 
             try
             {

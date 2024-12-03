@@ -92,10 +92,7 @@ namespace JOGONUM
 
         private void btncriar_Click(object sender, EventArgs e)
         {
-            string Usuario = txtusuario1.Text;
-            string Senha = txtsenha1.Text;
-         
-            MessageBox.Show("Conta criada com sucesso!");
+            
         }
 
         private void CriarConta(string usuario, string senha)
