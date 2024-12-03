@@ -8,22 +8,19 @@ namespace JOGONUM.model
 {
     internal class Broker
     {
-        public int Id { get; set; }
-        public string Brokerusuario { get; private set; }
+        public int CodUser { get; set; }
+        public string Brokerusuario { get; set; }
+        public int User { get; set; }
+        public string Pass { get; private set; }
         
-        public string Modelo { get; private set; }
-        public int CodeArea { get; private set; }
-        public string Telephone { get; private set; }
-        public string Email { get; private set; }
-        public string Password { get; private set; }
 
-        public Broker(string brokerCode, string password)
+        public Broker(string CodUser, string Pass)
         {
-            BrokerCode = brokerCode;
-            Password = password;
+            CodUser = CodUser;
+            Pass = Pass;
         }
 
-        public Broker(int id, string brokerName, string brokerCode,
+        public Broker(int CodUser, string brokerName, string brokerCode,
             string state, int codeArea, string telephone, string email,
             string password) : this(brokerName, brokerCode, state, codeArea,
             telephone, email, password)

@@ -1,4 +1,4 @@
-﻿using JOGONUM.controller;
+﻿ using JOGONUM.controller;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
