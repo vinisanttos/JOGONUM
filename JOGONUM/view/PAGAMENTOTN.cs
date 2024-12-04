@@ -19,10 +19,20 @@ namespace JOGONUM.view
 
         private void FINALIZARMIZ_Click(object sender, EventArgs e)
         {
-            PAGAR tela1 = new PAGAR();
+            Broker tela1 = new Broker();
             this.Visible = false;
             tela1.ShowDialog();
             this.Visible = true;
+        }
+
+        private void PAGAMENTOTN_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LOCALTN_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

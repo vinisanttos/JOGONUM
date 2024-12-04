@@ -68,6 +68,8 @@ namespace JOGONUM
             string Usuario = txbusuario.Text;
             string Senha = txbsenha.Text;
 
+            MessageBox.Show("Login feito com sucesso!");
+
             TIPOSDETENIS pagamentotn = new TIPOSDETENIS();
             this.Visible = false;
             pagamentotn.ShowDialog();

@@ -57,6 +57,7 @@
             this.LOCALTN.Size = new System.Drawing.Size(106, 22);
             this.LOCALTN.TabIndex = 6;
             this.LOCALTN.Text = "Campos do Jordão";
+            this.LOCALTN.TextChanged += new System.EventHandler(this.LOCALTN_TextChanged);
             // 
             // TAMANHOTN
             // 
@@ -113,6 +114,7 @@
             this.DoubleBuffered = true;
             this.Name = "PAGAMENTOTN";
             this.Text = "PAGAMENTOTN";
+            this.Load += new System.EventHandler(this.PAGAMENTOTN_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

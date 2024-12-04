@@ -27,7 +27,7 @@ namespace JOGONUM.view
 
         private void button1_Click(object sender, EventArgs e)
         {
-            INICIO inicio = new INICIO();
+            COMPRACANCELADA inicio = new COMPRACANCELADA();
             this.Visible = false;
             inicio.ShowDialog();
             this.Visible = true;

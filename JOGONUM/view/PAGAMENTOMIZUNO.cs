@@ -44,7 +44,7 @@ namespace JOGONUM.view
 
         private void FINALIZARMIZ_Click(object sender, EventArgs e)
         {
-            PAGAR tela5 = new PAGAR();
+            Broker tela5 = new Broker();
             this.Visible = false;
             tela5.ShowDialog();
             this.Visible = true;

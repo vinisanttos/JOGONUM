@@ -35,15 +35,13 @@
             this.txtValor1 = new System.Windows.Forms.TextBox();
             this.btnGerarQrCode1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.QrCodeBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnGerarQrCode
             // 
-            this.btnGerarQrCode.Location = new System.Drawing.Point(74, 254);
+            this.btnGerarQrCode.Location = new System.Drawing.Point(193, 254);
             this.btnGerarQrCode.Name = "btnGerarQrCode";
             this.btnGerarQrCode.Size = new System.Drawing.Size(75, 23);
             this.btnGerarQrCode.TabIndex = 0;
@@ -54,7 +52,7 @@
             // QrCodeBox
             // 
             this.QrCodeBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.QrCodeBox.Location = new System.Drawing.Point(186, 190);
+            this.QrCodeBox.Location = new System.Drawing.Point(338, 190);
             this.QrCodeBox.Name = "QrCodeBox";
             this.QrCodeBox.Size = new System.Drawing.Size(137, 140);
             this.QrCodeBox.TabIndex = 1;
@@ -63,7 +61,7 @@
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(74, 228);
+            this.txtValor.Location = new System.Drawing.Point(193, 228);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(62, 20);
             this.txtValor.TabIndex = 2;
@@ -74,7 +72,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(71, 200);
+            this.label1.Location = new System.Drawing.Point(211, 199);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(23, 16);
             this.label1.TabIndex = 3;
@@ -83,7 +81,7 @@
             // 
             // txtValor1
             // 
-            this.txtValor1.Location = new System.Drawing.Point(403, 228);
+            this.txtValor1.Location = new System.Drawing.Point(532, 228);
             this.txtValor1.Name = "txtValor1";
             this.txtValor1.Size = new System.Drawing.Size(60, 20);
             this.txtValor1.TabIndex = 4;
@@ -91,7 +89,7 @@
             // 
             // btnGerarQrCode1
             // 
-            this.btnGerarQrCode1.Location = new System.Drawing.Point(403, 254);
+            this.btnGerarQrCode1.Location = new System.Drawing.Point(532, 270);
             this.btnGerarQrCode1.Name = "btnGerarQrCode1";
             this.btnGerarQrCode1.Size = new System.Drawing.Size(75, 23);
             this.btnGerarQrCode1.TabIndex = 5;
@@ -104,20 +102,11 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(400, 200);
+            this.label2.Location = new System.Drawing.Point(536, 190);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 16);
             this.label2.TabIndex = 6;
             this.label2.Text = "MIZUNO";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Location = new System.Drawing.Point(500, 190);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(137, 140);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
@@ -137,7 +126,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnGerarQrCode1);
             this.Controls.Add(this.txtValor1);
@@ -149,7 +137,6 @@
             this.Name = "PAGAR";
             this.Text = "PAGAR";
             ((System.ComponentModel.ISupportInitialize)(this.QrCodeBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,7 +151,6 @@
         private System.Windows.Forms.TextBox txtValor1;
         private System.Windows.Forms.Button btnGerarQrCode1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
     }
 }
